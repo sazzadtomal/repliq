@@ -12,9 +12,6 @@ const Skeleton=({children})=>{
   const activeMenu=useSelector(getActiveMenu);
   const darkMode=useSelector(getDarkMode)
 
-  console.log(darkMode)
-
-
   return (
    
     <div className={`${darkMode ? "dark" : " "}`}>

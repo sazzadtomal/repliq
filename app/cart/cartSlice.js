@@ -12,7 +12,7 @@ const cartSlice=createSlice({
      initialState:cartAdapter.getInitialState(),
      reducers:{
         addProduct: (state,action)=>{
-            console.log("added")
+
             cartAdapter.addOne(state,action.payload)
         },
         removeProduct: (state,action)=>{

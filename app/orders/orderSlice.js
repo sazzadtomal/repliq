@@ -11,7 +11,7 @@ const orderSlice=createSlice({
      initialState:orderAdapter.getInitialState(),
      reducers:{
         addOrder: (state,action)=>{
-            console.log("added")
+
             orderAdapter.addOne(state,{products:action.payload,id:nanoid()})
         },
         removeOrder: (state,action)=>{
