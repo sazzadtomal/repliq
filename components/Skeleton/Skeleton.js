@@ -23,7 +23,7 @@ const Skeleton=({children})=>{
               
               
               
-            <div className={`w-full fixed md:static h-screen ${activeMenu ? "ml-72" : "flex-1" } dark:bg-slate-700 overflow-hidden `} >
+            <div className={`w-full fixed md:static flex flex-col h-screen ${activeMenu ? "ml-72" : "flex-1" } dark:bg-slate-700  `} >
               <div className='fixed md:static bg-main-bg  w-full'>
                   <Navbar/>
               </div>
